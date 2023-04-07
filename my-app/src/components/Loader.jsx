@@ -5,7 +5,9 @@ import blood from '../assets/blood.json'
 const Loader = () => {
     
     return(
-      <Lottie animationData={blood} loop={true} style={{height:"10rem"}} />
+      <div style={{background:"#e6ffff"}}>
+      <Lottie animationData={blood} loop={true} style={{height:"70vh"}} />
+      </div>
     )
 }
 
